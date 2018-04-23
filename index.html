@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_361424_qochf0uev9774x6r.css">
+
+</head>
+<body>
+   <div class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="imgs/logo.png">
+        </div>
+        <div class="navbar-nav hidden-xs" >
+            <ul>
+                <li id="position" >
+                    <img src="./imgs/citypoint.png">
+                    <span>北京</span>
+                    <span>切换城市</span>
+                </li>
+                <li class="change">
+                    <a href="index.html" >首页</a>
+                </li>
+                <li>
+                    <a href="javascript:;">到位APP</a>
+                </li>
+                <li>
+                    <a href="server.html">服务商</a>
+                </li>
+                <li>
+                    <a href="javascript:;">商家入驻</a>
+                </li>
+                <li>
+                    <a href="javascript:;">风物APP</a>
+                </li>
+                <li>
+                    <a href="javascript:;">关于我们</a>
+                </li>
+                <li class="shanghu-right">
+                    <a href="javascript:;">商家登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </div>
+   <div class="bannnerWrapper">
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+           <!-- Indicators -->
+           <ol class="carousel-indicators">
+               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+           </ol>
+
+           <!-- Wrapper for slides -->
+           <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                   <img src="./imgs/banner1.jpg">
+               </div>
+               <div class="item">
+                   <img src="./imgs/banner2.jpg">
+               </div>
+               <div class="item">
+                   <img src="./imgs/banner3.jpg">
+               </div>
+
+
+           </div>
+
+
+
+       </div>
+       <div class="banner-nav">
+           <ul class="bannner">
+             <!--  <li>
+                   <span>家庭保洁</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>上门按摩</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>上门维修</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>家电清洗</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>衣物洗护</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>搬家速运</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>美容美发</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>上门医护</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>保姆月嫂</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>
+               <li>
+                   <span>养车用车</span>
+                   <a class="iconfont icon-youjiantou" href="javascript:;"></a>
+               </li>-->
+           </ul>
+           <ul class="bannner-right active" >
+              <!-- <li>
+                   <span>家庭保洁</span>
+               </li>-->
+
+
+
+           </ul>
+       </div>
+   </div>
+   <!--<div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex"></span>
+                   <span class="serviceType">
+
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex"></span>
+                   <span class="serviceType">
+                         <a href="javascript:;">  小时工</a>
+                         <a href="javascript:;">  开荒保洁</a>
+                         <a href="javascript:;">  擦玻璃</a>
+                         <a href="javascript:;">  深度保洁</a>
+                         <a href="javascript:;">  杀虫除螨</a>
+                         <a href="javascript:;">  家居养护</a>
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+                  &lt;!&ndash; <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>&ndash;&gt;
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex">家庭保洁</span>
+                   <span class="serviceType">
+                         <a href="javascript:;">  小时工</a>
+                         <a href="javascript:;">  开荒保洁</a>
+                         <a href="javascript:;">  擦玻璃</a>
+                         <a href="javascript:;">  深度保洁</a>
+                         <a href="javascript:;">  杀虫除螨</a>
+                         <a href="javascript:;">  家居养护</a>
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex">家庭保洁</span>
+                   <span class="serviceType">
+                         <a href="javascript:;">  小时工</a>
+                         <a href="javascript:;">  开荒保洁</a>
+                         <a href="javascript:;">  擦玻璃</a>
+                         <a href="javascript:;">  深度保洁</a>
+                         <a href="javascript:;">  杀虫除螨</a>
+                         <a href="javascript:;">  家居养护</a>
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex">家庭保洁</span>
+                   <span class="serviceType">
+                         <a href="javascript:;">  小时工</a>
+                         <a href="javascript:;">  开荒保洁</a>
+                         <a href="javascript:;">  擦玻璃</a>
+                         <a href="javascript:;">  深度保洁</a>
+                         <a href="javascript:;">  杀虫除螨</a>
+                         <a href="javascript:;">  家居养护</a>
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="box1">
+       <div class="fff">
+           <div class="servicebody">
+               <div class="navigation">
+                   <span class="serviceIndex">家庭保洁</span>
+                   <span class="serviceType">
+                         <a href="javascript:;">  小时工</a>
+                         <a href="javascript:;">  开荒保洁</a>
+                         <a href="javascript:;">  擦玻璃</a>
+                         <a href="javascript:;">  深度保洁</a>
+                         <a href="javascript:;">  杀虫除螨</a>
+                         <a href="javascript:;">  家居养护</a>
+                   </span>
+               </div>
+               <div class="lookMore">更多服务<span class="iconfont icon-youjiantou"></span></div>
+
+           </div>
+           <div class="servicetags">
+               <div class="row1">
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+                   <div class="shofList">
+                       <img src="./imgs/1.jpg">
+                       <div class="serviceName">家庭保洁</div>
+                       <div class="description">开业钜惠，携带工具上门，2小时起订 下单须知：
+                           1.    ...</div>
+                       <div class="price">
+                           <span>30</span>
+                           <span>元/小时</span>
+                           <span class="btn1">查看详情</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>-->
+   <div class="baozhang_list">
+       <div class="baozhang">到位<span>服务</span>保障</div>
+       <div class="baozhang1">到位平台担保交易安全，交易未成功100%退款</div>
+       <div class="baozhang2">
+           <span class="iconfont icon-xuanzhong"></span>
+           <span>优选服务</span>
+           <span class="iconfont icon-xuanzhong"></span>
+           <span>全程保障</span>
+           <span class="iconfont icon-xuanzhong"></span>
+           <span>安全无忧</span>
+       </div>
+       <div class="footer">
+           <div class="hotCity">热门城市</div>
+           <ul class="list">
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+               <li>北京</li>
+           </ul>
+       </div>
+   </div>
+   <div class="friendList">
+       <div class="comuty">
+           ©2015 版权所有 到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司
+       </div>
+       <div class="friends">
+           <p>合作伙伴</p>
+           <ul>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+               <li><img src="imgs/meidao.jpg"></li>
+           </ul>
+       </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+   <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+   <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="js/index.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 2000
+    })
+</script>
+</body>
+</html>

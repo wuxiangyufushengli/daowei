@@ -1,0 +1,263 @@
+.header{
+    background-color: white;
+    width: 100%;
+    height:71px;
+    line-height: 71px;
+}
+.container{
+    width:1200px;
+    height: 65px;
+    margin: 0 auto;
+}
+.logo,.navbar-nav{
+    float: left;
+}
+.navbar-nav li{
+    float: left;
+}
+.navbar-nav li:hover>a{
+    color: red;
+
+}
+.navbar-nav li.change>a{
+    color:red ;
+}
+.logo{
+    margin-right: 80px;
+}
+.logo img{
+    padding-top: 10px;
+}
+.navbar-nav{
+    display: inline-block;
+}
+#position span{
+    margin-right: 5px;
+    font-weight: bold;
+}
+#position img{
+    vertical-align: middle;
+}
+#position{
+    margin-right: 50px;
+}
+.navbar-nav li>a{
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+}
+.shanghu-right{
+    margin-right: 10px;
+}
+.shanghu-right a{
+    border-radius: 5px;
+    background: #fb474f;
+    color: #fff !important;
+    padding: 4px 6px !important;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.content{
+    overflow: auto;
+    background-color:#FBF8F8 ;
+}
+.wraper{
+
+    padding-top: 30px;
+    width: 1200px;
+    margin: auto;
+}
+.wraper h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.right{
+    float: left;
+    width: 230px;
+}
+.left{
+    float: left;
+    width:970px;
+}
+.left li{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 232px;
+    height: 300px;
+    border: 1px solid #eaeaea;
+}
+.left img{
+    margin: auto;
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.left .name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.left>li>div:last-child{
+    width: 210px;
+    padding-right: 0px;
+    display: inline-block;
+    height: 50px;
+    font-size: 12px;
+    color: #800f75;
+    padding-top: 20px;
+}
+.left .ratinging{
+float: right;
+}
+.right img:last-child{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+
+    top: 349px;
+    left: 48px;
+
+}
+.right{
+    position: relative;
+    margin: auto;
+}
+.btn2{
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 32%;
+    line-height:50px;
+    background-color: #fb474f;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+}
+.btn_more{
+
+    color:white;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.baozhang,.baozhang1,.baozhang2,.footer{
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.baozhang{
+    font-size: 30px;
+    font-family: "微软雅黑";
+    font-weight: 800;
+}
+.baozhang>span{
+    color:red;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    font-weight: 800;
+}
+.baozhang1{
+    font-size: 22px;
+    color: #3d3838;
+
+}
+.baozhang2 .icon-xuanzhong{
+    color:green;
+    font-size: 30px;
+}
+.baozhang2 span:nth-child(2n){
+    position: relative;
+    line-height:20px ;
+    font-size: 20px;
+    top: -4px;
+    height: 20px;
+    display: inline-block;
+}
+.hotCity{
+    height: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.footer .list{
+    overflow: hidden;
+}
+.footer li{
+    float: left;
+    margin-right: 10px;
+    height: 10px;
+    width: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.friendList{
+    background-color:#FBF8F8;
+}
+.comuty,.friends{
+    width: 1200px;
+    margin: auto;
+
+}
+.comuty{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.friends>p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.friends ul{
+    overflow: hidden;
+}
+.friends li{
+    width: 10%;
+    height: 60px;
+    float: left;
+    line-height: 55px;
+    text-align: center;
+}
+.friends img{
+    width: 100px;
+}
+.fixed-animated{
+    animation-name: fixedHeader;
+    transform-origin: center top;
+    animation-duration: 0.8s;
+}
+@keyframes fixedHeader {
+    0%{
+        opacity: 0;
+        z-index:999 ;
+        transform: rotateX(0deg);
+    }
+    100%{
+        opacity: 1;
+        z-index:999 ;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .12);
+        transform: rotateX(-100deg);
+    }
+
+}
+.bg{
+    background-color:#333 ;
+}
+.fixed{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .12);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:999
+
+}
+
+
+
+
+
+
